@@ -14,7 +14,7 @@ import discord
 from dotenv import load_dotenv
 
 
-COOLDOWN_SECONDS = 7
+COOLDOWN_SECONDS = 0.1
 TRIGGER_NAME = "zigmars"
 
 MESSAGE_LOG_PATH = Path(__file__).with_name("message_log.jsonl")
